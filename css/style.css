@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+.title h1{
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.avatar img {
+    max-width: 180px;
+}
+
+.social {
+	font-size: 2.1em;
+	color: #333;
+}
+
+.social a{
+	color: #333;
+}
+
+.social i{
+	transition: 0.5s;
+}
+
+.social div{
+	display: inline-block;
+}
+
+.linkedin i:hover {
+	color: #0077B5;
+}
+
+.instagram i:hover {
+	color: #E040FB;
+}
+
+.dribbble i:hover {
+	color: #FF4081;
+}
