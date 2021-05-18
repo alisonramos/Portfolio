@@ -8,24 +8,75 @@ html, body {
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
+	background-color: #10002b!important;
+}
+
+body {
+	padding: 0em;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.title {
+	padding-left: 1.2em;
 }
 
 .title h1{
-    font-weight: 700;
-    letter-spacing: -1px;
+    font-weight: 500;
+	color: #F1F2F3;
+	margin-bottom: 0.4em;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+.title h4 {
+	font-weight: 400;
+	font-weight:normal;
+	font-family: 'Palanquin Dark', sans-serif;
+	color: #918FC5;
+	margin-bottom: 0.8em;
 }
 
 .avatar img {
-    max-width: 180px;
+    max-width: 80%;
+	margin-left: 3em;
+}
+
+section {
+	padding: 6rem 0;
+}
+
+.header {
+	padding-top: 10em;
+}
+
+.resume button{
+	background-color: #ed254e;
+	border-color: #ed254e;
+	height: 3em;
+	width: 10em;
+	margin-bottom: 1em;
+}
+
+.resume button:hover{
+	background-color: #ea526f;
+	border-color: #ea526f;
+	height: 3em;
+	width: 10em;
 }
 
 .social {
 	font-size: 2.1em;
-	color: #333;
+	color: #fff;
 }
 
 .social a{
-	color: #333;
+	color: #fff;
 }
 
 .social i{
@@ -46,4 +97,182 @@ html, body {
 
 .dribbble i:hover {
 	color: #FF4081;
+}
+
+.mail i:hover {
+	color: #F68E5F;
+}
+
+.portfolio h4{
+	color: #fff;
+}
+
+.text-small {
+	color: #918FC5;
+	font-size: 20px;
+}
+
+.img-rectangular img{
+	transition: transform 500ms ease-in-out;
+	transform-origin: center;
+}
+.img-rectangular:hover img {
+	transform: scale(1.03);
+}
+
+.portfolio h4{
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+.twitch {
+	transition: transform 500ms ease-in-out;
+	transform-origin: center;
+}
+
+.twitch:hover {
+	transform: scale(1.03);
+}
+
+.twitch-background {
+	background-color: #6441A5;
+	border-radius: 20px;
+	padding: 1rem;
+}
+
+.twitch-background:hover {
+	background-color: #6441A5;
+	border-radius: 20px;
+	padding: 1rem;
+}
+
+.twitch-background h3 {
+	font-weight: bold;
+	color: #fff;
+}
+
+.twitch-background h4 {
+	font-weight: 500;
+	opacity: 0.6;
+	color: #fff;
+}
+
+.avatartwitch img {
+	max-width: 18%;
+	margin-left: 1.5em;
+	float: left;
+	margin-right: 1.5em;
+	margin-top: -4em;
+}
+
+/* HERE GOES PROJECT PAGES CSS */
+
+.bg-primary-3 {
+	background-color: #10002b;
+}
+
+.portheader {
+	text-align: center;
+}
+
+.portheader h1 {
+	font-size: 3.5em;
+	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 0.7em;
+}
+.portheader h3 {
+	font-size: 1.3em;
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+.portheader h4 {
+	font-size: 1.5em;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 1em;
+}
+
+.fitlocal img {
+	width: 100%;
+	margin-top: 4em;
+	border-radius: 20px;
+}
+
+.lead {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.portfolio p.lead:first-child {
+	margin-top: 1.5rem;
+	margin-bottom: 3rem;
+}
+
+.port-title {
+	font-family: 'Inter', sans-serif;
+	font-size: 2.5em;
+	font-weight: 600;
+	margin-top: 1.8em;
+	margin-bottom: 0.6em;
+}
+
+.portfolio {
+	font-family: 'Inter', sans-serif;
+}
+
+.text-portfolio>:not(figure) {
+	max-width: 36rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.portfolio p:not(:last-child) {
+	margin-bottom: 1.5em;
+}
+
+.text-portfolio figure {
+	margin: 4rem 0;
+}
+
+.pt-4 {
+	margin-top: -12em;
+	background-color: #fff;
+}
+
+@media (max-width: 768px) {
+
+	section {
+		padding: 2rem 0;
+	}
+
+	.header {
+		margin-top: 0em;
+	}
+
+	.social {
+		font-size: 2.8em;
+		color: #fff;
+	}
+
+	.social i {
+		margin-right: 0.4em;
+	}
+
+	.port-text {
+		margin-bottom: 2em;
+	}
+
+    .avatar {
+        width: 60%;
+		padding-bottom: 1em;
+		margin-left: -3em;
+     }
+
+	 .avatartwitch img {
+		max-width: 40%;
+		margin-left: 1em;
+		float: left;
+		margin-right: 1.5em;
+		margin-top: 0.5em;
+	}
 }

@@ -5,31 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    <link href="css/style.css" rel="stylesheet" as="style">
     <link href="css/bootstrap.css" rel="stylesheet" as="style">
     <link href="css/bootstrap-grid.css" rel="stylesheet" as="style">
     <link href="css/bootstrap-reboot.css" rel="stylesheet" as="style">
     <link href="css/bootstrap-utilities.css" rel="stylesheet" as="style">
     <link href="js/bootstrap.js" rel="preload" as="script">
+    <link href="css/style.css" rel="stylesheet" as="style">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0a6c9d2cfa.js"></script>
     <title>Alison Ramos</title>
   </head>
   <body>
-    <div class="container-lg">
-        <div class="row">
-          <div class="avatar col-2"><img src="images/aquiel.png"></div>
-          <div class="title col-8">
-            <h1 class="display-4">Hello, I'm Alison.<br> An product designer from Brazil.</h1>
-            <h4>I'm currently working at Venturus</h4>
+    <section class="bg-primary-3 text-light">
+      <div class="container-lg mt-lg-6 header">
+          <div class="row">
+            <div class="avatar col-md-4 col-lg-3 align-self-center"><img src="images/aquiel.png"></div>
+            <div class="title col-md-12 col-lg-9">
+              <h1 class="display-4">Hi, I'm Alison.<br> A product designer from Brazil.</h1>
+              <h4>I'm currently working at Venturus and streaming on Twitch!</h4>
+              <div class="resume"><a href="download/AlisonRamos-Resume.pdf" target="_blank"><button type="button" class="btn btn-primary resume">My Resume</button></i></a></div>
+              <div class="social">
+                <div class="linkedin"><a href="https://www.linkedin.com/in/alisonramos/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+                <div class="instagram"><a href="https://www.instagram.com/alisonramoss/" target="_blank"><i class="fab fa-instagram-square"></i></a></div>
+                <div class="dribbble"><a href="https://dribbble.com/alisonramos" target="_blank"><i class="fab fa-dribbble-square"></i></a></div>
+                <div class="mail"><a href="mailto:contato@alisonramos.com" target="_blank"><i class="fas fa-envelope-square"></i></a></div>
+              </div>
+            </div>          
+          </div>
+      </div>
+    </section>
+    <section class="bg-primary-3 text-light portfolio">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-lg-4 mg-4 aos-init aos-animate img-rectangular align-self-center" data-aos="fade-up" data-aos-delay="100">
+            <a href="https://giulia-urizzi.medium.com/ajudando-as-pessoas-a-começarem-a-organizar-as-suas-finanças-78e7ec22e0ce" target="_blank">
+              <img src="images/nami.png" alt="Nami" class="rounded mb-3">
+              <h4 class="mb-1">Nami</h4>
+              <div class="text-small port-text">Finance Guid App</div>
+            </a>
+          </div>        
+          <div class="col-sm-6 col-lg-4 mg-4 aos-init aos-animate img-rectangular align-self-center" data-aos="fade-up" data-aos-delay="100">
+            <a href="#" target="_blank">
+              <img src="images/localfit.png" alt="LocalFit" class="rounded mb-3">
+              <h4 class="mb-1">LocalFit</h4>
+              <div class="text-small port-text">Exercise at home</div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-4 mg-4 aos-init aos-animate img-rectangular align-self-center" data-aos="fade-up" data-aos-delay="100">
+            <a href="#" target="_blank">
+              <img src="images/storycloud.png" alt="StoryCloud" class="rounded mb-3">
+              <h4 class="mb-1">Storycloud</h4>
+              <div class="text-small port-text">Share photos with your family and friends</div>
+            </a>
           </div>
         </div>
-        <div class="row">
-          <div class="social col">
-            <div class="linkedin"><a href="https://www.linkedin.com/in/alisonramos/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
-            <div class="instagram"><a href="https://www.instagram.com/alisonramoss/" target="_blank"><i class="fab fa-instagram-square"></i></a></div>
-            <div class="dribbble"><a href="https://dribbble.com/alisonramos" target="_blank"><i class="fab fa-dribbble-square"></i></a></div>
+      </div>
+    </section>
+    <section class="bg-primary-3 text-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-lg-12 twitch align-self-center">
+            <a href="https://www.twitch.tv/aqu1el">
+              <div class="avatartwitch"><img src="images/aquiel-twitch.png">
+                <div class="twitch-background col-12">
+                  <h3 class="display-6">My Twitch Adventure!</h3>
+                  <h4>I like to play games, make people laugh and improve my communication skills!</h4>
+                </div>
+              </div>
+            </a>  
           </div>
         </div>
-    </div>
+      </div>
+    </section>
   </body>
 </html>
